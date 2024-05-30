@@ -16,6 +16,8 @@ function generateJoke() {
     document.getElementById("answer").value = "";
     document.getElementById("result").textContent = "";
 
+    console.log('GENERATING JOKES!')
+
     document.body.style.backgroundColor = getRandomColor(currentJokeIndex); // Change background color
 }
 
